@@ -10,8 +10,6 @@
   <img alt="Moveit" src="https://github.com/hmartiins/PlantManager/blob/main/assets/cover.png">
 </p>
 
----
-
 ## 🧪 Tecnologias 
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -20,7 +18,19 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+## :clipboard: Funcionalidades
+- [x] Fazer autenticação com o nome.
+- [x] Selecionar planta para ser lembrado de regar.
+- [x] Escolher horário para ser lembrado de regar a planta.
+- [x] Receber uma notificação lembrando você de regar a planta no horário que você escolheu.
+- [x] Remover plantas.
+- [x] Todos os dados são salvos no Local Storage do dispositivo.
+
 ## 🚀 Começando
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), Um dispositivo físico ou um emuldador, Baixe o Expo Client no seu dispositivo para [IOS](https://apps.apple.com/br/app/expo-go/id982107779) ou [Android](https://play.google.com/store/apps/details?id=host.exp.exponent), Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 Clone o projeto e acesse a pasta
 
@@ -36,6 +46,8 @@ $ yarn install
 
 # Inicie o projeto
 $ expo start
+
+$ Leia o Código QR com Expo Client que você baixou no seu dispositivo, não se esqueça de colocar o seu endereço ip lan no diretório ./src/services/api na baseURL.
 ```
 
 ## 💻 Projeto
