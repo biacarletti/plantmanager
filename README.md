@@ -6,10 +6,6 @@
 </div>
 <br>
 
-<p align="center">
-  <img alt="Moveit" src="https://github.com/hmartiins/PlantManager/blob/main/assets/cover.png">
-</p>
-
 ## 🧪 Tecnologias 
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
